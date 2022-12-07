@@ -1,0 +1,700 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  overflow: hidden; }
+
+a {
+  border: none;
+  color: #333;
+  margin: 5%;
+  text-decoration: none; }
+
+.main2 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins'; }
+
+.login__container {
+  width: 80%;
+  height: 240px;
+  border-radius: 5px;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  overflow-x: auto;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.login__log {
+  width: 580px;
+  height: 600px;
+  background: rgba(243, 53, 76, 0.9);
+  backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  position: absolute;
+  left: 34%;
+  bottom: 100%;
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .login__log .login__titel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-bottom: 40px; }
+  .login__log .login__conateiner {
+    width: 400px;
+    height: auto;
+    margin-top: 20px; }
+    .login__log .login__conateiner .input__titel {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF; }
+    .login__log .login__conateiner .signup__input {
+      width: 100%;
+      height: 70px;
+      background: #333333;
+      box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      outline: none;
+      border: none;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #A7A7A7;
+      padding-left: 20px;
+      padding-right: 20px; }
+  .login__log .button__signUp {
+    width: 200px;
+    height: 70px;
+    background: #333333;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-top: 80px;
+    cursor: pointer;
+    transition: 0.5s;
+    cursor: pointer; }
+    .login__log .button__signUp:hover {
+      background-color: transparent;
+      transition: 0.5s;
+      border: 2px solid #333; }
+
+.login__log__animated {
+  position: absolute;
+  bottom: 8%; }
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  background-color: #19181A; }
+  .wrap .header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 37px;
+    padding-top: 2%;
+    padding-right: 10%; }
+    .wrap .header .header__box .logo__box {
+      width: 200px;
+      height: 90px;
+      display: flex;
+      align-items: center; }
+      .wrap .header .header__box .logo__box .img__logo {
+        width: 40px;
+        height: 70px; }
+      .wrap .header .header__box .logo__box .logo__text {
+        margin-left: 10px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #FFFFFF;
+        position: relative;
+        top: 10%; }
+    .wrap .header .header__box .header__h1 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 54px;
+      letter-spacing: 0.065em;
+      color: #FFFFFF; }
+    .wrap .header .nav {
+      display: flex; }
+      .wrap .header .nav .nav__text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.065em;
+        color: #FFFFFF;
+        margin: 5%;
+        cursor: pointer;
+        transition: 0.5s; }
+      .wrap .header .nav .nav__text:hover {
+        color: #E14025;
+        transition: 0.5s; }
+      .wrap .header .nav :nth-child(2) {
+        color: #E14025; }
+  .wrap .main {
+    width: 100%;
+    height: 80vh;
+    display: flex; }
+    .wrap .main .main__left {
+      width: 40%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .wrap .main .main__left .name__pizza {
+        transform: rotate(90deg);
+        position: relative;
+        right: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        color: rgba(255, 255, 255, 0.8); }
+      .wrap .main .main__left .pizaa__box {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        right: 88%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; }
+        .wrap .main .main__left .pizaa__box .pizza__ctructura {
+          width: 480px;
+          height: 480px;
+          border: 5px solid #E14025;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          transition: 1s; }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura :nth-child(1) {
+            position: absolute;
+            right: 90%; }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura :nth-child(2) {
+            position: absolute;
+            right: 75%;
+            bottom: 75%; }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura :nth-child(3) {
+            position: absolute;
+            left: 75%;
+            top: 75%; }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura :nth-child(4) {
+            position: absolute;
+            bottom: 90%;
+            right: 40%; }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura :nth-child(5) {
+            position: absolute;
+            top: 90%; }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura :nth-child(6) {
+            position: absolute;
+            left: 75%;
+            bottom: 75%; }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura :nth-child(7) {
+            position: absolute;
+            right: 75%;
+            top: 75%; }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura :nth-child(8) {
+            position: absolute;
+            left: 90%; }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura .piiza__ingredient {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: #19181A;
+            position: absolute;
+            background-size: cover;
+            border: 3px solid #E14025; }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura .pizza1 {
+            background-image: url(https://pablito.com.ua/wp-content/uploads/2017/11/Pitstsa-Vegano.png.webp); }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura .pizza2 {
+            background-image: url(https://pablito.com.ua/wp-content/uploads/2019/09/Picca-Chiken-Chiz.png.webp); }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura .pizza3 {
+            background-image: url(https://pablito.com.ua/wp-content/uploads/2017/11/Pitstsa-Neapolitanskaya.png.webp); }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura .pizza4 {
+            background-image: url(https://pablito.com.ua/wp-content/uploads/2020/12/Gurme_sait.jpg.webp); }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura .pizza5 {
+            background-image: url(https://pablito.com.ua/wp-content/uploads/2017/11/Pitstsa-TSezar-.png.webp); }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura .pizza6 {
+            background-image: url(https://pablito.com.ua/wp-content/uploads/2021/03/Picca_sait_Proshutto-1-1.jpg.webp); }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura .pizza7 {
+            background-image: url(https://pablito.com.ua/wp-content/uploads/2017/11/Pitstsa-Margarita.png.webp); }
+          .wrap .main .main__left .pizaa__box .pizza__ctructura .pizza8 {
+            background-image: url(https://pablito.com.ua/wp-content/uploads/2017/11/Pitstsa-4-sy-ra.png.webp); }
+    .wrap .main .main__right {
+      width: 60%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding-left: 5%; }
+      .wrap .main .main__right .contant__ingredients {
+        width: 450px;
+        height: auto;
+        background: #FFFFFF;
+        box-shadow: inset 0px 0px 18px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 25px;
+        padding-bottom: 30px; }
+        .wrap .main .main__right .contant__ingredients .ingtagients__titel {
+          font-family: 'Poppins';
+          font-weight: 700;
+          font-size: 32px;
+          color: #000; }
+        .wrap .main .main__right .contant__ingredients .ingradient__desription-box {
+          width: 100%;
+          height: auto;
+          display: flex;
+          margin-top: 30px;
+          border-left: 2px solid #e94747; }
+          .wrap .main .main__right .contant__ingredients .ingradient__desription-box .ingredient__description {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 18px;
+            color: #333;
+            margin-left: 15px; }
+        .wrap .main .main__right .contant__ingredients .prise__box {
+          width: 100%;
+          height: 45px;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 30px;
+          border-bottom: 4px dotted #333333; }
+          .wrap .main .main__right .contant__ingredients .prise__box .prise__text {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            color: #333333; }
+          .wrap .main .main__right .contant__ingredients .prise__box .prise {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            color: #333333; }
+        .wrap .main .main__right .contant__ingredients .button__box {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 40px; }
+          .wrap .main .main__right .contant__ingredients .button__box .button__ingredient {
+            width: 160px;
+            height: 70px;
+            background: #E14025;
+            border-radius: 16px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            color: #FFFFFF;
+            display: flex;
+            border: none;
+            justify-content: center;
+            align-items: center;
+            transition: 0.2s;
+            cursor: pointer; }
+          .wrap .main .main__right .contant__ingredients .button__box .button__ingredient:hover {
+            background: transparent;
+            border: 1px solid #E14025;
+            color: #E14025;
+            transition: 0.2s; }
+          .wrap .main .main__right .contant__ingredients .button__box .button__buy {
+            width: 70px;
+            height: 70px;
+            background: #E14025;
+            border-radius: 16px;
+            display: flex;
+            border: none;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer; }
+            .wrap .main .main__right .contant__ingredients .button__box .button__buy .img__buy {
+              width: 40px;
+              height: 40px; }
+          .wrap .main .main__right .contant__ingredients .button__box .button__buy:hover {
+            background: #601002;
+            transition: 0.2s; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 7px;
+  background-color: #fff; }
+
+::-webkit-scrollbar-thumb {
+  background: #F3354C;
+  border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
+  -ms-border-radius: 0px 0px 0px 0px;
+  -o-border-radius: 0px 0px 0px 0px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F3354C; }
+
+@media screen and (max-width: 1200px) {
+  .login__container {
+    width: 80%;
+    height: 240px;
+    border-radius: 5px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    overflow-x: auto;
+    padding-left: 30px;
+    padding-right: 30px; }
+
+  .login__log {
+    width: 580px;
+    height: 600px;
+    border-radius: 10px;
+    position: absolute;
+    left: 27%;
+    bottom: 100%; }
+    .login__log .login__titel {
+      font-size: 40px;
+      line-height: 60px;
+      padding-bottom: 40px; }
+    .login__log .login__conateiner {
+      width: 400px;
+      height: auto;
+      margin-top: 20px; }
+      .login__log .login__conateiner .input__titel {
+        font-size: 16px;
+        line-height: 24px; }
+      .login__log .login__conateiner .signup__input {
+        width: 100%;
+        height: 70px;
+        border-radius: 5px;
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px; }
+    .login__log .button__signUp {
+      width: 200px;
+      height: 70px;
+      border-radius: 5px;
+      font-size: 24px;
+      line-height: 36px;
+      margin-top: 80px; }
+
+  .login__log__animated {
+    position: absolute;
+    bottom: 8%; } }
+@media screen and (max-width: 1100px) {
+  .login__log__animated {
+    position: absolute;
+    bottom: 2%; } }
+@media screen and (max-width: 952px) {
+  .login__log__animated {
+    position: absolute;
+    bottom: 2%; }
+
+  .login__log {
+    position: absolute;
+    left: 20%; } }
+@media screen and (max-width: 840px) {
+  .login__log {
+    width: 500px;
+    height: 580px;
+    position: absolute;
+    left: 20%; } }
+@media screen and (max-width: 785px) {
+  .login__log {
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    left: 20%; }
+
+  .login__log__animated {
+    position: absolute;
+    bottom: 10%; }
+
+  .login__log .login__titel {
+    font-size: 32px; }
+
+  .login__log .button__signUp {
+    margin-top: 60px; } }
+@media screen and (max-width: 1000px) {
+  #main2 {
+    padding-left: 5%;
+    padding-right: 5%; }
+
+  .wrap .header .header__box .logo__box {
+    height: 60px; }
+    .wrap .header .header__box .logo__box .img__logo {
+      width: 30px;
+      height: 50px; }
+    .wrap .header .header__box .logo__box .logo__text {
+      font-family: 'Poppins';
+      font-size: 20px; }
+  .wrap .header .header__box .header__h1 {
+    font-size: 28px; }
+  .wrap .nav {
+    display: flex;
+    margin-right: 50px; }
+    .wrap .nav .nav__text {
+      font-size: 20px;
+      margin: 5%; }
+  .wrap .main .main__left .name__pizza {
+    transform: rotate(90deg);
+    position: relative;
+    right: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.8); } }
+@media screen and (max-width: 880px) {
+  .wrap .main .main__right .contant__ingredients .ingtagients__titel {
+    font-size: 24px; }
+
+  .wrap .main .main__right .contant__ingredients {
+    width: 400px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    position: relative;
+    right: 7%; }
+
+  .wrap .main .main__right .contant__ingredients .ingradient__desription-box .ingredient__description {
+    font-size: 16px;
+    margin-left: 10px; }
+
+  .wrap .main .main__right .contant__ingredients .prise__box .prise__text {
+    font-size: 18px; }
+
+  .wrap .main .main__right .contant__ingredients .prise__box {
+    height: 35px; }
+
+  .wrap .main .main__right .contant__ingredients .prise__box .prise {
+    font-size: 18px; }
+
+  .wrap .main .main__right .contant__ingredients .button__box .button__ingredient {
+    width: 130px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 18px; }
+
+  .wrap .main .main__right .contant__ingredients .button__box .button__buy {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px; }
+
+  .wrap .main .main__right .contant__ingredients .button__box .button__buy .img__buy {
+    width: 35px;
+    height: 35px; }
+
+  .wrap .main .main__right .contant__ingredients .button__box {
+    margin-top: 30px; }
+
+  .wrap .main .main__left .pizaa__box .pizza__ctructura {
+    width: 400px;
+    height: 400px; }
+
+  .wrap .main .main__left .pizaa__box .pizza__ctructura .piiza__ingredient {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #19181A;
+    position: absolute;
+    background-size: cover;
+    border: 3px solid #E14025; }
+
+  .wrap .main .main__left .name__pizza {
+    font-size: 24px; } }
+@media screen and (max-width: 700px) {
+  .login__log {
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    left: 20%; }
+
+  .login__log__animated {
+    position: absolute;
+    bottom: -10%; }
+
+  body {
+    overflow: auto; }
+
+  body {
+    overflow-x: hidden; }
+
+  .wrap {
+    height: 160vh; }
+    .wrap .main {
+      height: 140vh;
+      display: flex;
+      flex-direction: column; }
+      .wrap .main .main__left {
+        width: 100%; }
+        .wrap .main .main__left .name__pizza {
+          margin-right: 45%; }
+      .wrap .main .main__right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0%;
+        padding-bottom: 10%; }
+
+  .wrap .main .main__right .contant__ingredients {
+    position: relative;
+    right: 0%; }
+
+  .wrap .header {
+    padding-left: 20px;
+    padding-right: 4%; }
+
+  .wrap .header .header__box .header__h1 {
+    font-size: 24px; } }
+@media screen and (max-width: 640px) {
+  .login__log {
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    left: 15%; }
+
+  .login__log__animated {
+    position: absolute;
+    bottom: -10%; } }
+@media screen and (max-width: 590px) {
+  .wrap .header .nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%; } }
+@media screen and (max-width: 550px) {
+  .login__log {
+    width: 400px;
+    height: 500px; }
+
+  .login__log .login__titel {
+    font-size: 28px; }
+
+  .login__log .login__conateiner {
+    width: 300px; }
+
+  .login__log .button__signUp {
+    width: 170px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 40px; } }
+@media screen and (max-width: 500px) {
+  .login__log {
+    position: absolute;
+    left: 10%; }
+
+  .wrap .main .main__right .contant__ingredients {
+    width: 340px;
+    position: relative;
+    bottom: 25%; }
+
+  .wrap .main .main__right .contant__ingredients .ingtagients__titel {
+    font-size: 20px; }
+
+  .wrap .main .main__right .contant__ingredients .ingradient__desription-box .ingredient__description {
+    font-size: 14px; }
+
+  .wrap .main .main__right .contant__ingredients .prise__box .prise__text {
+    font-size: 16px; }
+
+  .wrap .main .main__right .contant__ingredients .button__box .button__ingredient {
+    width: 110px; }
+
+  .login__container {
+    width: 80%;
+    height: 240px;
+    border-radius: 5px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    overflow-x: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 80%; } }
+@media screen and (max-width: 450px) {
+  .login__log {
+    width: 330px;
+    height: 500px;
+    position: absolute;
+    left: 10%; }
+
+  .login__log .login__conateiner {
+    width: 250px; }
+
+  .wrap .header {
+    padding-left: 15px;
+    padding-right: 0%; }
+
+  .wrap .header .header__box .header__h1 {
+    width: 100px;
+    line-height: 25px;
+    position: relative;
+    top: 10px; } }
+@media screen and (max-width: 400px) {
+  .login__log {
+    width: 330px;
+    height: 500px;
+    position: absolute;
+    left: 7%; } }
+@media screen and (max-width: 370px) {
+  .login__log {
+    width: 330px;
+    height: 500px;
+    position: absolute;
+    left: 4%; } }
+
+/*# sourceMappingURL=style.css.map */
